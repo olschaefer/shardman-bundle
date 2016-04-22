@@ -17,5 +17,5 @@
             "Shardman\\Symfony\\Bundle\\": "src/",
             "Shardman\\Symfony\\Bundle\\Test\\": "test/"
         }
-    },
+    }
 }
