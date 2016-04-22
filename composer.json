@@ -1,0 +1,21 @@
+{
+    "name": "shardman/symfony-bundle",
+    "authors": [
+    ],
+    "require": {
+        "doctrine/doctrine-migrations-bundle": "@stable",
+        "shardman/shardman": "dev-master"
+    },
+    "require-dev": {
+        "symfony/symfony": "2.7",
+        "doctrine/orm": "@stable",
+        "doctrine/dbal": "@stable",
+        "doctrine/doctrine-bundle": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shardman\\Symfony\\Bundle\\": "src/",
+            "Shardman\\Symfony\\Bundle\\Test\\": "test/"
+        }
+    },
+}
